@@ -20,4 +20,7 @@ int main()
     ss << i;
     str = ss.str();
     cout << str << endl;
+    
+    /* Covert string to int using atoi */
+    i = atoi(str.c_str());
 }
